@@ -84,3 +84,4 @@ convert -crop +72+0 ./combined/422_out.png ./combined/422_out.png
 convert +append ./combined/57_out.png ./combined/157_out.png ./combined/257_out.png ./combined/357_out.png ./combined/422_out.png ./$O.jpg
 rm -rf *.png original combined
 echo "Finished Successfully!"
+

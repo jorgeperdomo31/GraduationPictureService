@@ -85,3 +85,10 @@ convert +append ./combined/57_out.png ./combined/157_out.png ./combined/257_out.
 rm -rf *.png original combined
 echo "Finished Successfully!"
 
+
+
+
+
+
+
+

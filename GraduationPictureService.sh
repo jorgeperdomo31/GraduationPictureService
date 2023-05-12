@@ -37,7 +37,7 @@ echo "The URL looks like this:"
 echo "http://images1.flashphotography.com/Magnifier/Magnify.aspx?O=10000001&R=00001&F=0001&A=1001"
 echo "================================================="
 echo ""
-read  -p "Paste here:" url_ori
+read  -p "http://magnifier.flashphotography.com/Magnify.aspx?O=27190367&R=00020&F=0184&A=71714" url_ori
 IFS='?' read -a array <<< "$url_ori"
 url_base=`echo "${array[0]}"|sed 's/............$//'`
 IFS='&' read -a array_para <<< "${array[1]}"
